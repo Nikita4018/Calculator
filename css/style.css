@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Cormorant+Garamond:ital,wght@1,300&family=Lato:wght@300&family=Libre+Baskerville:ital@1&display=swap');
+
+html, body{
+    /* height: 100%;
+    width : 100%; */
+    font-family: 'Alice', serif;
+}
+.background{
+    background-image: url(img.jpg);
+}
+
+
+.button{
+    padding: 30px;
+    margin: 0 3px;
+    border: 5px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 22px;
+    width: 7vw;
+    background-color: rgb(126, 220, 227);
+    color: black;
+}
+
+.row{
+    margin: 8px 0;
+}
+.row input{
+    font-size: 33px;
+    margin: 13px;
+    padding: 22px 52px;
+    border: 5px solid black;
+    border-radius: 35px;
+    width: 26vw;
+    background-color: rgb(176, 224, 237);
+}
+
+
